@@ -1,0 +1,207 @@
+body {
+    .u-section-1 {
+
+        background-image: url("https://i.ibb.co/h8NKyF3/i-Stock-1222646505.jpg");
+        background-image: url('/public/images/iStock-1222646505.jpg');
+        background-size: cover;
+        <p style="background-image: url('https://i.ibb.co/h8NKyF3/i-Stock-1222646505.jpg');"> 
+      }
+      
+      .u-section-1 .u-sheet-1 {
+        min-height: 1419px;
+      }
+      
+      .u-section-1 .u-text-1 {
+        font-weight: 700;
+        text-shadow: 2px 2px 8px rgba(0,0,0,0.4);
+        font-size: 6.25rem;
+        margin: 75px 0 0;
+      }
+      
+      .u-section-1 .u-image-1 {
+        width: 447px;
+        height: 447px;
+        margin: 15px auto 0 326px;
+      }
+      
+      .u-section-1 .u-btn-1 {
+        --radius: 50px;
+        font-weight: 700;
+        text-transform: uppercase;
+        font-size: 2rem;
+        letter-spacing: 1px;
+        background-image: none;
+        margin: 12px auto 0 420px;
+        padding: 33px 75px 33px 73px;
+      }
+      
+      .u-section-1 .u-btn-2 {
+        --radius: 50px;
+        font-weight: 700;
+        text-transform: uppercase;
+        font-size: 0.875rem;
+        letter-spacing: 1px;
+        background-image: none;
+        margin: -82px 451px 60px auto;
+        padding: 12px 20px 13px 19px;
+      }
+      
+      @media (max-width: 1199px) {
+        .u-section-1 .u-sheet-1 {
+          min-height: 1170px;
+        }
+      
+        .u-section-1 .u-text-1 {
+          margin-left: -20px;
+          font-size: 3.75rem;
+        }
+      
+        .u-section-1 .u-image-1 {
+          margin-top: 190px;
+        }
+      
+        .u-section-1 .u-btn-1 {
+          margin-top: 158px;
+          margin-left: 220px;
+        }
+      
+        .u-section-1 .u-btn-2 {
+          margin-right: 251px;
+        }
+      }
+      
+      @media (max-width: 991px) {
+        .u-section-1 .u-sheet-1 {
+          min-height: 896px;
+        }
+      
+        .u-section-1 .u-image-1 {
+          margin-left: 273px;
+        }
+      
+        .u-section-1 .u-btn-1 {
+          margin-left: 0;
+        }
+      
+        .u-section-1 .u-btn-2 {
+          margin-right: 31px;
+          margin-bottom: -50px;
+        }
+      }
+      
+      @media (max-width: 767px) {
+        .u-section-1 .u-sheet-1 {
+          min-height: 672px;
+        }
+      
+        .u-section-1 .u-text-1 {
+          font-size: 3rem;
+        }
+      
+        .u-section-1 .u-image-1 {
+          margin-top: 84px;
+          margin-left: 93px;
+        }
+      
+        .u-section-1 .u-btn-2 {
+          margin-right: 0;
+          margin-bottom: -140px;
+        }
+      }
+      
+      @media (max-width: 575px) {
+        .u-section-1 .u-sheet-1 {
+          min-height: 316px;
+        }
+      
+        .u-section-1 .u-text-1 {
+          font-size: 2.25rem;
+        }
+      
+        .u-section-1 .u-image-1 {
+          width: 340px;
+          height: 340px;
+          margin-top: -38px;
+          margin-left: 0;
+        }
+      
+        .u-section-1 .u-btn-2 {
+          margin-bottom: -181px;
+        }
+      }
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    flex-direction: row;
+    align-items: end;
+    flex-wrap: wrap;
+    padding: 15px 32px;
+  text-align: center;
+}
+
+#no-button {
+  margin: 0 10px;
+  color: white;
+  border-radius: 2px;
+    background-color: rgb(255, 62, 62);
+    cursor: pointer;
+    height: 40px;
+    width: auto;
+
+    p {
+        margin: 0;
+        object-fit: contain;
+    }
+}
+
+#yes-button {
+    margin: 0 10px;
+    color: white;
+    border-radius: 2px;
+    background-color: rgb(8, 184, 8);
+    cursor: pointer;
+    height: 40px;
+    width: 70px;
+
+    p {
+        margin: 0;
+        object-fit: contain;
+    }
+}
+
+/* Make responsive for mobile */
+@media (max-width: 768px) {
+    body {
+        padding: 0 20px;
+    }
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+.message {
+    display: none;
+}
+
+.banner-gif {
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+
+    img {
+        width: auto;
+        height: 250px;
+    }
+}
+
+/* Path: /js/script.js */
